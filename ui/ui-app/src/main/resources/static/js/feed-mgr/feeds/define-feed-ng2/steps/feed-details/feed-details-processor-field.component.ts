@@ -255,50 +255,50 @@ export class FeedDetailsProcessorFieldComponent implements OnInit, OnChanges, On
             _module.exports = require('@angular/material/autocomplete');
         });
         SystemJS.registerDynamic('rxjs/operators', [], true, function(_require: any, _exports: any, _module: any) {
-            _module.exports = require('../../../../../../node_modules/rxjs/operators');
+            _module.exports = require('../../../../../../../../../../node_modules/rxjs/operators');
         });
         SystemJS.registerDynamic('rxjs/Observable', [], true, function(_require: any, _exports: any, _module: any) {
-            _module.exports = require('../../../../../../node_modules/rxjs/Observable');
+            _module.exports = require('../../../../../../../../../../node_modules/rxjs/Observable');
         });
         SystemJS.registerDynamic('rxjs/Subscription', [], true, function(_require: any, _exports: any, _module: any) {
-            _module.exports = require('../../../../../../node_modules/rxjs/Subscription');
+            _module.exports = require('../../../../../../../../../../node_modules/rxjs/Subscription');
         });
         SystemJS.registerDynamic('rxjs/add/operator/do', [], true, function(_require: any, _exports: any, _module: any) {
-            _module.exports = require('../../../../../../node_modules/rxjs/add/operator/do');
+            _module.exports = require('../../../../../../../../../../node_modules/rxjs/add/operator/do');
         });
         SystemJS.registerDynamic('rxjs/add/operator/debounceTime', [], true, function(_require: any, _exports: any, _module: any) {
-            _module.exports = require('../../../../../../node_modules/rxjs/add/operator/debounceTime');
+            _module.exports = require('../../../../../../../../../../node_modules/rxjs/add/operator/debounceTime');
         });
         SystemJS.registerDynamic('rxjs/add/observable/merge', [], true, function(_require: any, _exports: any, _module: any) {
-            _module.exports = require('../../../../../../node_modules/rxjs/add/observable/merge');
+            _module.exports = require('../../../../../../../../../../node_modules/rxjs/add/observable/merge');
         });
         SystemJS.registerDynamic('rxjs/observable/of', [], true, function(_require: any, _exports: any, _module: any) {
-            _module.exports = require('../../../../../../node_modules/rxjs/observable/of');
+            _module.exports = require('../../../../../../../../../../node_modules/rxjs/observable/of');
         });
         SystemJS.registerDynamic('rxjs/operators/catchError', [], true, function(_require: any, _exports: any, _module: any) {
-            _module.exports = require('../../../../../../node_modules/rxjs/operators/catchError')
+            _module.exports = require('../../../../../../../../../../node_modules/rxjs/operators/catchError')
         });
         SystemJS.registerDynamic('rxjs/operators/debounceTime', [], true, function(_require: any, _exports: any, _module: any) {
-            _module.exports = require('../../../../../../node_modules/rxjs/operators/debounceTime')
+            _module.exports = require('../../../../../../../../../../node_modules/rxjs/operators/debounceTime')
         });
         SystemJS.registerDynamic('rxjs/operators/distinctUntilChanged', [], true, function(_require: any, _exports: any, _module: any) {
-            _module.exports = require('../../../../../../node_modules/rxjs/operators/distinctUntilChanged')
+            _module.exports = require('../../../../../../../../../../node_modules/rxjs/operators/distinctUntilChanged')
         });
         SystemJS.registerDynamic('rxjs/operators/filter', [], true, function(_require: any, _exports: any, _module: any) {
-            _module.exports = require('../../../../../../node_modules/rxjs/operators/filter')
+            _module.exports = require('../../../../../../../../../../node_modules/rxjs/operators/filter')
         });
         SystemJS.registerDynamic('rxjs/operators/map', [], true, function(_require: any, _exports: any, _module: any) {
-            _module.exports = require('../../../../../../node_modules/rxjs/operators/map')
+            _module.exports = require('../../../../../../../../../../node_modules/rxjs/operators/map')
         });
         SystemJS.registerDynamic('rxjs/operators/skip', [], true, function(_require: any, _exports: any, _module: any) {
-            _module.exports = require('../../../../../../node_modules/rxjs/operators/skip')
+            _module.exports = require('../../../../../../../../../../node_modules/rxjs/operators/skip')
         });
         SystemJS.registerDynamic('rxjs/operators/switchMap', [], true, function(_require: any, _exports: any, _module: any) {
-            _module.exports = require('../../../../../../node_modules/rxjs/operators/switchMap')
+            _module.exports = require('../../../../../../../../../../node_modules/rxjs/operators/switchMap')
         });
-        SystemJS.registerDynamic('underscore', [], true, function(_require: any, _exports: any, _module: any) {
-            _module.exports = require('../../../../../../bower_components/underscore/underscore-min')
-        });
+        // SystemJS.registerDynamic('underscore', [], true, function(_require: any, _exports: any, _module: any) {
+        //     _module.exports = require('../../../../../../../../../../bower_components/underscore/underscore-min')
+        // });
         SystemJS.registerDynamic('@angular/common', [], true, function(_require: any, _exports: any, _module: any) {
             _module.exports = require('@angular/common');
         });
@@ -335,9 +335,9 @@ export class FeedDetailsProcessorFieldComponent implements OnInit, OnChanges, On
         SystemJS.registerDynamic('@covalent/core/dialogs', [], true, function(_require: any, _exports: any, _module: any) {
             _module.exports = require('@covalent/core/dialogs');
         });
-        SystemJS.registerDynamic('@kylo/feed', [], true, function(_require: any, _exports: any, _module: any) {
-            _module.exports = require('../../../../../../../../../../target/classes/static/lib/bundles/kylo-feed.umd.min.js');
-        });
+        // SystemJS.registerDynamic('@kylo/feed', [], true, function(_require: any, _exports: any, _module: any) {
+        //     _module.exports = require('../../../../../../../../../../target/cache/target/classes/static/lib/bundles/kylo-feed.umd.min.js');
+        // });
     }
 
 }

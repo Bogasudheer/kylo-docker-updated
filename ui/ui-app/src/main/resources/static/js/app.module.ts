@@ -17,10 +17,10 @@ import {KyloCommonModule} from "./common/common.module";
 import {AngularHttpInterceptor} from "./services/AngularHttpInterceptor";
 import {KyloServicesModule} from "./services/services.module";
 
-import '../node_modules/@fortawesome/fontawesome-free/sprites/brands.svg';
-import '../node_modules/@fortawesome/fontawesome-free/sprites/regular.svg';
-import '../node_modules/@fortawesome/fontawesome-free/sprites/solid.svg';
-import '../node_modules/@mdi/font/fonts/materialdesignicons-webfont.svg';
+import '../../../../../node_modules/@fortawesome/fontawesome-free/sprites/brands.svg';
+import '../../../../../node_modules/@fortawesome/fontawesome-free/sprites/regular.svg';
+import '../../../../../node_modules/@fortawesome/fontawesome-free/sprites/solid.svg';
+import '../../../../../node_modules/@mdi/font/fonts/materialdesignicons-webfont.svg';
 
 /**
  * Overrides {@link MatIconRegistry} to include the viewBox when building SVG elements.
