@@ -207,7 +207,7 @@
     <!-- <node.version>v18.14.0</node.version>
     <npm.version>9.4.2</npm.version> --> 
     <node.version>v10.10.0</node.version>
-    <npm.version>6.4.1</npm.version>
+    <npm.version>3.10.8</npm.version>
   </properties>
   <modules>
     <module>commons</module>
