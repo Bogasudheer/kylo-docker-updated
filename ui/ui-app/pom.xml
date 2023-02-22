@@ -271,15 +271,15 @@
 	    <!-- <npmVersion>${npm.version}</npmVersion> -->
             </configuration>
           </execution>
-          <execution>
-            <id>npm install</id>
-            <goals>
-              <goal>npm</goal>
-            </goals>
-            <configuration>
-              <arguments>install</arguments>
-            </configuration>
-          </execution>
+            <!-- <execution>
+              <id>npm install</id>
+              <goals>
+                <goal>npm</goal>
+              </goals>
+              <configuration>
+                <arguments>install</arguments>
+              </configuration>
+            </execution> -->
           <execution>
             <id>npm build lib</id>
             <goals>
