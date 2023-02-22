@@ -256,21 +256,16 @@
         <groupId>com.github.eirslett</groupId>
         <artifactId>frontend-maven-plugin</artifactId>
         <executions>
-          <execution>
+          <!-- <execution>
             <id>install node and npm</id>
             <goals>
               <goal>install-node-and-npm</goal>
             </goals>
             <configuration>
-              <!-- <nodeVersion>v0.10.32</nodeVersion> -->
                   <node.version>v12.18.3</node.version>
                  <npm.version>6.14.6</npm.version>
-             <!-- <npmVersion>9.4.2</npmVersion>
-	     <node.version>v10.10.0</node.version> --> 
-              <!-- <npm.version>2.1.8</npm.version> -->
-	    <!-- <npmVersion>${npm.version}</npmVersion> -->
             </configuration>
-          </execution>
+          </execution> -->
             <!-- <execution>
               <id>npm install</id>
               <goals>

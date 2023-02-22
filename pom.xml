@@ -210,15 +210,15 @@
                  <npm.version>6.14.6</npm.version>
   </properties>
   <modules>
-    <module>commons</module>
+    <!-- <module>commons</module>
     <module>core</module>
-    <module>security</module>
+    <module>security</module> -->
     <module>ui</module>
-    <module>plugins</module>
+    <!-- <module>plugins</module>
     <module>metadata</module>
     <module>services</module>
     <module>integrations</module>
-    <module>install</module>
+    <module>install</module> -->
     <!-- <module>docs</module>
     <module>samples</module>
     <module>release</module> -->
